@@ -1,0 +1,68 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+  background: linear-gradient(to right, #d98edd, #c480e8);
+  color: #2d2d2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 450px;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.main-heading {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.btn-download {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #333333;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+}
+
+.image-wrapper {
+  margin-top: 20px;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
